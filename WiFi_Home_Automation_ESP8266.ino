@@ -40,7 +40,7 @@ void setup()
   //Blynk.begin(auth, ssid, pass);
   // You can also specify server:
   Blynk.begin(auth, ssid, pass, "blynk-cloud.com", 8080);
-  //Blynk.begin(auth, ssid, pass, IPAddress(192,168,1,100), 8080);
+  //Blynk.begin(auth, ssid, pass, IPAddress(XXX,XXX,X,XX), 8080);
 }
 
 void loop()
